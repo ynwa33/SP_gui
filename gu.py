@@ -106,7 +106,7 @@ class ArduinoDataApp(QMainWindow):
 
         # Logo section
         logo = QLabel(self)
-        pixmap = QPixmap(r"C:\Users\hd\Desktop\WhatsApp Image 2024-09-16 at 20.29.25_d30fde75.jpg")
+        pixmap = QPixmap(r"path_to_logo")
         logo.setPixmap(pixmap.scaled(200, 200))
         logo.setAlignment(Qt.AlignCenter)
         layout.addWidget(logo, alignment=Qt.AlignCenter)
